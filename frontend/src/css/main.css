@@ -1,0 +1,17 @@
+@import "animate.css/animate.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.order-status {
+  height: 100vh;
+  /* margin-top: 100px; */
+  background-color: var(--primary-color);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
